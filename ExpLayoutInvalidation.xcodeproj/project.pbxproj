@@ -12,6 +12,7 @@
 		348E5A531E380E98008F0BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E5A511E380E98008F0BA1 /* Main.storyboard */; };
 		348E5A551E380E98008F0BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348E5A541E380E98008F0BA1 /* Assets.xcassets */; };
 		348E5A581E380E98008F0BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348E5A561E380E98008F0BA1 /* LaunchScreen.storyboard */; };
+		348E5A601E3816D0008F0BA1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 348E5A5F1E3816D0008F0BA1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		348E5A541E380E98008F0BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		348E5A571E380E98008F0BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		348E5A591E380E98008F0BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		348E5A5F1E3816D0008F0BA1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				348E5A4D1E380E98008F0BA1 /* AppDelegate.swift */,
 				348E5A4F1E380E98008F0BA1 /* ViewController.swift */,
+				348E5A5F1E3816D0008F0BA1 /* README.md */,
 				348E5A511E380E98008F0BA1 /* Main.storyboard */,
 				348E5A541E380E98008F0BA1 /* Assets.xcassets */,
 				348E5A561E380E98008F0BA1 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348E5A601E3816D0008F0BA1 /* README.md in Sources */,
 				348E5A501E380E98008F0BA1 /* ViewController.swift in Sources */,
 				348E5A4E1E380E98008F0BA1 /* AppDelegate.swift in Sources */,
 			);
@@ -204,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

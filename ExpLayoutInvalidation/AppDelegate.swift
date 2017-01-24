@@ -3,7 +3,7 @@
 //  ExpLayoutInvalidation
 //
 //  Created by Mischa Hildebrand on 24/01/2017.
-//  Copyright © 2017 Kupferwerk. All rights reserved.
+//  Copyright © 2017 Mischa Hildebrand. All rights reserved.
 //
 
 import UIKit
