@@ -1,4 +1,4 @@
-# Sample project to prove how a layout pass can be triggered manually on a UIView in iOS
+# How to trigger an immediate layout pass on a UIView in iOS
 
 The goal of this sample project is to prove that the call
 
