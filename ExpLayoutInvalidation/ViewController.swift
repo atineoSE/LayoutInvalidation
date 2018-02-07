@@ -19,11 +19,11 @@ class ViewController: UIViewController {
         print("🏁 Initiating layout loop...")
         
         // Specify the number of layout passes here.
-        let 🔄 = 10
-        
-        for _ in 1...🔄 {
-            forceLayoutPass(on: mySubview)
-        }
+//        let 🔄 = 10
+//
+//        for _ in 1...🔄 {
+//            forceLayoutPass(on: mySubview)
+//        }
         
         print("🏁 Layout loop finished.")
     }
@@ -53,6 +53,7 @@ class CustomView: UIView {
     /// the number of times it was called and printing that number to the console.
     override func layoutSubviews() {
         super.layoutSubviews()
+        setNeedsLayout()    // Cause infinite layout loop
         methodCalls += 1
         print("layoutSubviews() called \(methodCalls) times.")
     }
